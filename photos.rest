@@ -1,0 +1,10 @@
+http://localhost:3000/photos
+###
+http://localhost:3000/photos/1
+###
+DELETE http://localhost:3000/photos/1657283979826
+###
+PATCH  http://localhost:3000/photos/1657667306402
+Content-Type: application/json
+
+{ "name": "Broken Back", "description": "Photo de Broken Back", "category": "0" }

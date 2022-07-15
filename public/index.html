@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <!-- car public es servi sur /-->
+    <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/vue@3.0.5"></script>
+    <title>Random webapp</title>
+  </head>
+
+  <body>
+    <div id="vue_root">
+      <form action="/photos" method="post" enctype="multipart/form-data">
+        <input type="text" name="name" />
+        <input type="text" name="description" />
+        <input type="text" name="category" />
+        <input type="file" name="file" />
+        <input type="submit" value="Envoyer" />
+      </form>
+    </div>
+  </body>
+</html>

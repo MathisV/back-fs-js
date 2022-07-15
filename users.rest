@@ -1,0 +1,24 @@
+http://localhost:3000/users
+###
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{"username": "test","password": "12345"}
+
+###
+DELETE http://localhost:3000/users/1
+###
+PATCH  http://localhost:3000/users/2
+Content-Type: application/json
+
+
+{"username": "tverleene","password": "1234567"}
+###
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{"username": "mverleene","password": "123456789"}
+###
+GET http://localhost:3000/login/ee1bb8bee1885b359d7b33e0e5fe26106926a55f5f407b06d2f42a51753d905c
+###
+GET http://localhost:3000/logout/f2b1a5936ba2a46a695f246ccbacdbcaf21fb4d87cc2b9393d5ebda309856b98
