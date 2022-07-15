@@ -1,5 +1,5 @@
 {
-  "name": "projet-fullstack-pokemon-vue-00",
+  "name": "back-fs-js",
   "version": "1.0.0",
   "description": "",
   "main": "src/main.js",
@@ -19,6 +19,7 @@
     "express": "^4.17.1",
     "express-fileupload": "^1.4.0",
     "firebase-admin": "^11.0.0",
+    "firebase-functions": "^3.22.0",
     "multer": "^1.4.5-lts.1",
     "photo": "file:./src/photo"
   },
