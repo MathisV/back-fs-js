@@ -37,7 +37,7 @@ export async function getPhotos(req, res, utils_vars) {
 }
 
 export async function addPhoto(req, res, utils_vars) {
-  let content = req.body;
+  const content = req.body;
   const docRef = utils_vars.db.collection("photos").doc(Date.now().toString());
 
   const name = crypto.randomBytes(16).toString("hex");
